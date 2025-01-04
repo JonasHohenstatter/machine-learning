@@ -1,0 +1,21 @@
+# Ignore all .keras files
+*.keras
+
+# Ignore all .jpg and .png files
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Ignore web-related files
+*.html
+*.htm
+
+# Ensure files in subfolders are also ignored
+**/*.keras
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.html
+**/*.htm
+**/*.webp
